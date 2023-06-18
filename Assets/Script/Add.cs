@@ -8,12 +8,15 @@ public class Add : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        a++;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(a == 1)
+        {
+            Debug.Log("a = 1");
+        }
     }
 }
