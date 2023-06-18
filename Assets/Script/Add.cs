@@ -8,6 +8,7 @@ public class Add : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         a = a + 10;
     }
 
@@ -16,13 +17,16 @@ public class Add : MonoBehaviour
     {
         if(a == 1)
         {
-            Debug.Log("a‚Í1‚Å‚·I");
+
+            Debug.Log("aï¿½ï¿½1ï¿½Å‚ï¿½ï¿½I");
             a = a + 9;
         }
         else
         {
-            Debug.Log("a‚Í1‚Å‚Í‚ ‚è‚Ü‚¹‚ñI");
+            Debug.Log("aï¿½ï¿½1ï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½I");
             a--;
+
+
         }
     }
 }
